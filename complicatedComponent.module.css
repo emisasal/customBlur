@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+  color: red;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  margin: 10px 0;
+  z-index: 100;
+}
